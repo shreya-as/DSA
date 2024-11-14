@@ -1,4 +1,4 @@
-# 📜 Insertion Sort in JavaScript
+# 📜 Insertion Sort 
 
 A simple and efficient implementation of the **Insertion Sort** algorithm. This algorithm is a great choice for sorting small or nearly sorted arrays. 🚀
 
