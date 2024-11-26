@@ -21,3 +21,14 @@ const multiplyWithRecursion = (arr) => {
   // 1*2*3*4
 };
 console.log(multiplyWithRecursion(arr));
+
+const getRangeNumber = (start, end) => {
+  if (start > end) {
+    return [];
+  } else {
+    numbers = getRangeNumber(1, end - 1);
+    numbers.push(end)
+    return numbers
+  }
+};
+console.log(getRangeNumber(0, 5),"range");
