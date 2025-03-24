@@ -72,3 +72,16 @@ for (let i = 0; i < num; i++) {
   count4 = String.fromCharCode(count4.charCodeAt(0) + 1);
   console.log("");
 }
+
+const printPyramid = (num) => {
+  let str = "";
+  for (let i = 0; i < num; i++) {
+    str += " ".repeat(num - i - 1);
+    for (let j = 0; j <= i; j++) {
+      str += j + 1;
+    }
+    console.log("\n");
+  }
+  return str;
+};
+console.log(printPyramid(4), "string string");
